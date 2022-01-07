@@ -28,6 +28,82 @@
   color: #61dafb;
 }
 
+.NumbersPanel {
+  color: rgb(147, 167, 211);
+  width: 320px;
+  height: 60px;
+  border: black;
+  border-style:solid;
+  border-radius: 5px;
+  border-width: 4px;
+  background-color: rgb(26, 26, 65);
+  font-size: 25px;
+  margin-bottom: -2px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.Button {
+  width: 80px;
+  height: 80px;
+  background-color:#172135;
+  border: black;
+  border-style:solid;
+  border-radius: 5px;
+  border-width: 2px;
+  color: rgb(160, 183, 233);
+  font-weight: 600;
+  {/*transition: background-color .05s linear .05s;*/}
+}
+.Button:hover {
+  background-color:rgb(13, 21, 37)
+}
+
+.Button-Erase {
+  width: 120px;
+  height: 80px;
+  background-color:#202d46;
+  border: black;
+  border-style:solid;
+  border-radius: 5px;
+  border-width: 2px;
+  color: rgb(160, 183, 233);
+  font-weight: 600;
+}
+.Button-Erase:hover {
+  background-color:rgb(20, 33, 59);
+}
+
+.Button-Operator {
+  width: 80px;
+  height: 80px;
+  background-color:#202d46;
+  border: black;
+  border-style:solid;
+  border-radius: 5px;
+  border-width: 2px;
+  color: rgb(160, 183, 233);
+  font-weight: 600;
+}
+.Button-Operator:hover {
+  background-color:rgb(20, 33, 59);
+}
+
+.Button-Calculate {
+  width: 80px;
+  height: 80px;
+  background-color:#253e6b;
+  border: black;
+  border-style:solid;
+  border-radius: 5px;
+  border-width: 2px;
+  color: rgb(160, 183, 233);
+  font-weight: 600;
+}
+.Button-Calculate:hover {
+  background-color:#1d3055;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
